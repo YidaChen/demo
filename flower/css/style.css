@@ -1,0 +1,188 @@
+ul {
+    list-style: none;
+}
+p {
+    color: #797979;
+}
+a {
+    text-decoration: none;
+}
+header {
+    position: fixed;
+    top:0;
+    width:100%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 1000;
+}
+header img {
+    display: block;
+    position: absolute;
+    height: 80%;
+    top:12%;
+    margin-left: 8%;
+}
+nav {
+    float: right;
+    margin-right: 70px;
+}
+nav ul li {
+    position: relative;
+    display: block;
+    float: right;
+    top: -5px;
+}
+nav ul li a {
+    display: block;
+    width: 83px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    padding: 0 10px;
+    color: rgba(69, 69, 69, 0.75);
+}
+#login {
+    width: 63px;
+    background:#de6d6e url(../images/head.png) no-repeat 18% center;
+    color:#ffffff;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+nav ul li a:hover {
+    background-color: rgba(222, 109, 110, 0.92);
+    color: rgba(255, 255, 255, 0.95); 
+    border-radius: 5px;
+}
+#Pictext {
+    overflow: hidden;
+    width: 99.24vw;
+    height: 90vh;
+    background: url(../images/flower.png) no-repeat;
+    background-size: cover;
+}
+#Pictext h1,#Pictext h3 {
+    position: relative;
+    top: 180px;
+    text-align: center;
+    color: white; 
+}
+#Pictext h1 {
+    font-size: 70px;
+    top: 220px;
+}
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+#service h2, #service p {
+    text-align: center;
+}
+.equipment {
+    position: relative;
+    left: -50%;
+    float: right;
+}
+#outcir {
+    position: relative;
+    left: 50%;
+}
+.equipment .circle {
+    display: inline-block;
+    margin: 10px;
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    overflow: hidden;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+.equipment .circle:hover {
+    display: inline-block;
+    margin: 10px;
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    overflow: hidden;
+    -webkit-transform: scale(1.2) rotate(360deg);
+    -ms-transform: scale(1.2) rotate(360deg);
+    transform: scale(1.2) rotate(360deg);
+}
+.circle p {
+    color: #ffffff;
+    margin-top: 125px;
+}
+#tickets{
+    background: #4eb9f4 url(../images/tickets.png) no-repeat center center;
+}
+#camera{
+    background: #6fc125 url(../images/camera.png) no-repeat center center;
+}
+#beer{
+    background: #ff5649 url(../images/beermug.png) no-repeat center center;
+}
+#devices{
+    background: #e48f23 url(../images/iPad.png) no-repeat center center;
+}
+#explain {
+    clear: both;
+    border-top:1px solid #e0e0e0;
+}
+.article {
+    margin: 50px 0;
+    overflow: auto;
+}
+#explain .article img {
+    float: left;
+    margin-right: 30px;
+}
+footer {
+    background-color: #262525;
+    padding: 5px 95px;
+    overflow: auto;
+}
+footer a,footer h4 {
+    color: #aeaeae;
+}
+footer .menu a:hover {
+    color: #e6e6e6;
+}
+footer .menu {
+    float: left;
+}
+footer ul li {
+    position: relative;
+    left: -38px;
+    top: -10px;
+}
+footer #shareSide {
+    float: left;
+    margin-top: 30px; 
+}
+footer .share {
+    float: left;
+    margin: 10px;
+    border-radius: 25px;
+}
+footer #shareSide p {
+    clear: both;
+}
+footer .share a {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+footer #fb {
+    background: #696b6a url(../images/fb.png) no-repeat center center;
+}
+footer #twitter {
+    background: #696b6a url(../images/twitter.png) no-repeat center center;
+}
+footer #drible {
+    background: #696b6a url(../images/drible.png) no-repeat center center;
+}
+footer #share {
+    background: #696b6a url(../images/share.png) no-repeat center center;
+}
+footer #shareSide .share:hover {
+    background-color: #d4d4d4;
+}
