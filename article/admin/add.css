@@ -1,0 +1,35 @@
+a {
+    text-decoration: none;
+    color: #575757;
+}
+a:hover {
+    color: #ea4646;
+}
+body {
+    margin: 0;
+    background: #f0f8f5;
+    font-family: "WenQuanYi Micro Hei","Microsoft YaHei";
+}
+h1 {
+    text-align: center;    
+    border-bottom: 2px solid #575757;
+}
+h3 {
+    text-align: center;
+}
+#left {
+    float: left;
+    width: 11%;
+}
+#right {
+    float: left;
+    padding-left: 5%;
+    border-left: 2px solid #575757;
+}
+input, textarea {
+    vertical-align: text-top;
+    margin-bottom: 5px;
+}
+input:last-child {
+    float: right;
+}
