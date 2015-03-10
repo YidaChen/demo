@@ -38,7 +38,7 @@ if($query&&mysql_num_rows($query)){
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="#">文章</a></li>
+                    <li><a href="article.list.php">文章</a></li>
                     <li><a href="#">關於我們</a></li>
                     <li><a href="#">聯繫我們</a></li>
                 </ul>
@@ -54,17 +54,19 @@ if($query&&mysql_num_rows($query)){
                 <p class="lead"><?php echo nl2br($row['content'])?></p>
             </div>
             <div class="col-md-3">
+                <form method="get" action="article.search.php">
                 <div class="well">
-                    <h4>Blog Search</h4>
+                    <h4>Title Search</h4>
                     <div class="input-group">
-                        <input type="text" class="form-control">
+                        <input type="text" name="key" class="form-control">
                         <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">
+                            <button class="btn btn-default" type="submit">
                                 <span class="glyphicon glyphicon-search"></span>
-                        </button>
+                            </button>
                         </span>
                     </div>
                 </div>
+                </form>
             </div>
         </div>
         <hr>
